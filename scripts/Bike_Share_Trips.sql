@@ -21,16 +21,16 @@ IF OBJECT_ID('bikeshare_trips', 'U') IS NOT NULL
 	DROP TABLE bikeshare_trips;
 
 CREATE TABLE bikeshare_trips (
-	trip_id						INT,
+	trip_id					INT,
 	duration_sec				INT,
-	start_date					NVARCHAR(50),
+	start_date				NVARCHAR(50),
 	start_station_name			NVARCHAR(50),
 	start_station_id			INT,
-	end_date					NVARCHAR(50),
+	end_date				NVARCHAR(50),
 	end_station_name			NVARCHAR(50),
 	end_station_id				INT,
-	bike_number					INT,
-	zip_code					NVARCHAR(50),
+	bike_number				INT,
+	zip_code				NVARCHAR(50),
 	subscriber_type				NVARCHAR(50)
 );
 
